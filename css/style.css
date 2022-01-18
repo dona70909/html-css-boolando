@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* main container */
+.container{
+    width: 80%;
+    background-color: bisque;
+    text-align: center;
+    margin: 0 auto;
+    padding-top:10px ;
+}
+
+/* formato images */
+img{
+    width:300px;
+    height: 400px;
+    margin-bottom:20px;
+}
+
+/* row */
+.row{
+    display: inline-block;
+}
+
+.product{
+    position: relative;
+    display: inline-block;
+}
+
+
+/* devo fare class absolute e relative */
+.sconto{
+    position: absolute;
+    z-index: 1;
+    bottom:100px;
+    left: 0;
+    /* add class red  */
+    background-color: red;
+
+}
+
+.categoria{
+    position: absolute;
+    z-index: 1;
+    bottom:100px;
+    left: 50px;
+    background-color: green;
+}
+
+.heart{
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    background-color: blue;
+    width: 25px;
+    height: 25px;
+    font-size: 20px;
+}
