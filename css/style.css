@@ -99,6 +99,7 @@ img{
 
 }
 
+/* hover image */
 .back-image{
     display: none;
 } 
@@ -112,4 +113,5 @@ img{
 .product:hover .front-image{
     display: none;
 }
+
 
