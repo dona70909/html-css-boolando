@@ -103,13 +103,13 @@ img{
     display: none;
 } 
 
-/* .product:hover .back-image{
-    position: absolute;
-    display: block;
+.product:hover .back-image{
+    display: inline-block;
+    z-index: 2;
+    
 }
 
 .product:hover .front-image{
-    display: hidden;
+    display: none;
 }
- */
 
