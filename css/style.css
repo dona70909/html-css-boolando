@@ -32,6 +32,10 @@ img{
     display: inline-block;
 }
 
+.style-prd{
+    text-transform:uppercase;
+}
+
 
 /* carat. comuni */
 .layout-label-img{
@@ -43,6 +47,7 @@ img{
     font-weight: 600;
 
 }
+
 .sconto{
     bottom:80px;
     left: 0;
