@@ -7,7 +7,6 @@
 /* main container */
 .container{
     width: 80%;
-    /* background-color: bisque; */
     text-align: center;
     margin: 0 auto;
     padding-top:10px ;
@@ -53,7 +52,6 @@ img{
     left: 0;
     background-color: red;
    
-
 }
 
 .categoria{
